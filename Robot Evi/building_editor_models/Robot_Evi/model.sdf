@@ -1,0 +1,931 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='Robot_Evi'>
+    <pose frame=''>-1.01369 -0.516252 0 0 -0 0</pose>
+    <link name='Wall_1'>
+      <pose frame=''>0 6.675 0 0 -0 0</pose>
+      <visual name='Wall_1_Visual_0'>
+        <pose frame=''>-5.80687 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.88626 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.88626 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-5.80687 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_1'>
+        <pose frame=''>0.943132 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>11.6137 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_1'>
+        <geometry>
+          <box>
+            <size>11.6137 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.943132 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_2'>
+        <pose frame=''>-2.76953 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.58841 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_2'>
+        <geometry>
+          <box>
+            <size>2.58841 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-2.76953 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_3'>
+        <pose frame=''>1.40344 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.15754 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_3'>
+        <geometry>
+          <box>
+            <size>4.15754 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.40344 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_4'>
+        <pose frame=''>5.5161 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.46779 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_4'>
+        <geometry>
+          <box>
+            <size>2.46779 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>5.5161 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_5'>
+        <pose frame=''>-4.46374 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_5'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-4.46374 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_6'>
+        <pose frame=''>-1.07533 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_6'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.07533 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual_7'>
+        <pose frame=''>3.88221 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_1_Collision_7'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.88221 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_10'>
+      <pose frame=''>3.875 -6.675 0 0 -0 3.14159</pose>
+      <visual name='Wall_10_Visual_0'>
+        <pose frame=''>-1.68077 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.38847 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_10_Collision_0'>
+        <geometry>
+          <box>
+            <size>2.38847 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.68077 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_1'>
+        <pose frame=''>1.19423 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.36153 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_10_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.36153 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.19423 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_2'>
+        <pose frame=''>1.59423 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.56153 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_10_Collision_2'>
+        <geometry>
+          <box>
+            <size>2.56153 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.59423 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual_3'>
+        <pose frame=''>-0.086531 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_10_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.086531 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_11'>
+      <pose frame=''>1.075 0 0 0 -0 1.5708</pose>
+      <visual name='Wall_11_Visual_0'>
+        <pose frame=''>-3.16298 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.17404 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_11_Collision_0'>
+        <geometry>
+          <box>
+            <size>7.17404 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.16298 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_11_Visual_1'>
+        <pose frame=''>4.03702 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.42596 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_11_Collision_1'>
+        <geometry>
+          <box>
+            <size>5.42596 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>4.03702 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_11_Visual_2'>
+        <pose frame=''>0.87404 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_11_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.87404 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_13'>
+      <collision name='Wall_13_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_13_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <pose frame=''>-0.602168 2.38049 0 0 -0 3.14159</pose>
+    </link>
+    <link name='Wall_14'>
+      <pose frame=''>-2.27717 -0.794511 0 0 0 -1.5708</pose>
+      <visual name='Wall_14_Visual_0'>
+        <pose frame=''>-2.7067 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.08659 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_14_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.08659 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-2.7067 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_14_Visual_1'>
+        <pose frame=''>0.993296 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.51341 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_14_Collision_1'>
+        <geometry>
+          <box>
+            <size>4.51341 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.993296 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_14_Visual_2'>
+        <pose frame=''>-1.71341 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_14_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.71341 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_17'>
+      <pose frame=''>-0.602168 -3.96951 0 0 -0 0</pose>
+      <visual name='Wall_17_Visual_0'>
+        <pose frame=''>-1.14307 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.21385 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_17_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.21385 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.14307 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_1'>
+        <pose frame=''>1.05693 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.38615 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_17_Collision_1'>
+        <geometry>
+          <box>
+            <size>1.38615 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.05693 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_17_Visual_2'>
+        <pose frame=''>-0.086148 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_17_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.086148 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_2'>
+      <pose frame=''>6.675 0 0 0 0 -1.5708</pose>
+      <visual name='Wall_2_Visual_0'>
+        <pose frame=''>-5.85484 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.79033 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.79033 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-5.85484 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_1'>
+        <pose frame=''>0.895164 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>11.7097 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_1'>
+        <geometry>
+          <box>
+            <size>11.7097 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.895164 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_2'>
+        <pose frame=''>-3.14973 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.01988 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_2'>
+        <geometry>
+          <box>
+            <size>2.01988 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.14973 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_3'>
+        <pose frame=''>0.994214 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.66801 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_3'>
+        <geometry>
+          <box>
+            <size>4.66801 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.994214 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_4'>
+        <pose frame=''>5.43911 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.62178 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_4'>
+        <geometry>
+          <box>
+            <size>2.62178 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>5.43911 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_5'>
+        <pose frame=''>-4.55967 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_5'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-4.55967 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_6'>
+        <pose frame=''>-1.73979 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_6'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.73979 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual_7'>
+        <pose frame=''>3.72822 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_2_Collision_7'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.72822 0 1.9 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_5'>
+      <collision name='Wall_5_Collision'>
+        <geometry>
+          <box>
+            <size>7.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_5_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <pose frame=''>-6.675 3 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_6'>
+      <pose frame=''>0 -0.675 0 0 -0 0</pose>
+      <visual name='Wall_6_Visual_0'>
+        <pose frame=''>-5.85664 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.78672 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.78672 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-5.85664 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_1'>
+        <pose frame=''>1.58816 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.60831 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.60831 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.58816 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_2'>
+        <pose frame=''>5.52116 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.45769 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_2'>
+        <geometry>
+          <box>
+            <size>2.45769 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>5.52116 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_3'>
+        <pose frame=''>-3.03964 0 0.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.84728 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_3'>
+        <geometry>
+          <box>
+            <size>3.84728 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-3.03964 0 0.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_4'>
+        <pose frame=''>-2.63964 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.04728 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_4'>
+        <geometry>
+          <box>
+            <size>3.04728 0.15 2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-2.63964 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_5'>
+        <pose frame=''>-4.56328 0 1.9 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_5'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 1.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-4.56328 0 1.9 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_6'>
+        <pose frame=''>3.84231 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_6'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>3.84231 0 2.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual_7'>
+        <pose frame=''>-0.665997 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <collision name='Wall_6_Collision_7'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.665997 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>
